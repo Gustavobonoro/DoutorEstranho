@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doutor Estranho</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            position: relative;
+        }
+        .image1 {
+            width: 100%;
+            height: 800px; /* Ajustei a altura para uma visualização melhor do efeito parallax */
+            background-image: url('capa.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed; /* Adicionado para efeito parallax */
+            position: relative;
+        }
+        .img1 {
+            width: fill;
+            height: 800px; /* Ajustei a altura para uma visualização melhor do efeito parallax */
+            background-image: url('img1.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed; /* Adicionado para efeito parallax */
+            position: relative;
+        }
+        .title {
+            text-align: center;
+            padding: 10px;
+            position: absolute;
+            top: 15%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: fit-content;
+            z-index: 2000;
+        }
+        .title span {
+            display: block;
+            color: white;
+            line-height: 50px;
+            width: 250px;
+            margin: auto;
+        }
+        .title span:first-child {
+            background-color: black;
+        }
+        .title span:last-child {
+            background-color: red;
+        }
+        .text-box {
+
+            align-items: center;
+            justify-content: space-around;
+            margin: auto;
+
+            padding: 10px;
+        }
+        .text-box img {
+            width: 15%;
+            height: auto;
+            margin-bottom: 20px;
+        }
+        .text-box-header {
+            width: 100%;
+            text-align: left;
+            margin-bottom: 20px;
+        }
+        .text-box h3 {
+            text-align: justify;
+        }
+        .coming-soon {
+            text-align: center;
+            width: 200px;
+            background-color: red;
+            color: white;
+            padding: 10px;
+            margin-top: 1px;
+        }
+    </style>
+</head>
+<body>
+    <div class="image1">
+        <div class="title">
+            <span>Doutor Estranho 2</span>
+            <span>No multiverso da Loucura</span>
+        </div>
+    </div>
+    <div class="text-box">
+        <div class="text-box-header">
+            <h2>Informações sobre o filme:</h2>
+                <strong>Elenco:</strong> 
+                <p>Benedict Cumberbatch, Chiwetel Ejlofor, Elizabeth Olsen</p>
+                <strong>   <p>Direção:</p> </strong>
+                Sam Raimi
+                <strong>   <p>Roteiro:</p> </strong>
+                Michael Waldron, Scott Derrlckson
+                <strong>   <p>Titulo Original:</p> </strong>
+                Doctor Strange in the Multiverse of Madness</h2>
+        </div>
+        <img src="elenco1.jpg" alt="Elenco 1">
+        <img src="elenco2.jpg" alt="Elenco 2">
+        <img src="elenco3.jpg" alt="Elenco 3">
+        <div class="img1"></div>
+    </div>
+    <div class="text-box">
+        <strong> <h3>Sinopse:</strong>
+            <p>Em Doutor Estranho no Multiverso da Loucura, após derrotar Dormammu e enfrentar Thanos nos eventos de Vingadores: Ultimato, o Mago Supremo, Stephen Strange (Benedict Cumberbatch), e seu parceiro Wong(Benedict Wong), continuam suas pesquisas sobre a Joia do Tempo. Mas um velho amigo que virou inimigo coloca um ponto final nos seus planos e faz com que Strange desencadeie um mal indescritível, o obrigando a enfrentar uma nova e poderosa ameaça. O longa se conecta com a série do Disney+ Wandavision e tem relação também com Loki. O longa pertence a fase 4 do MCU onde a realidade do universo pode entrar em colapso por causa do mesmo feitiço que trouxe os vilões do Teioso para o mundo dos Vingadores e o Mago Supremo precisará contar com a ajuda de Wanda (Elizabeth Olsen), que vive isolada desde os eventos de Wandavision.</h3></p>
+    </div>
+    <div class="coming-soon">
+        <h2>Em Breve nos Cinemas</h2>
+    </div>
+</body>
+</html>
